@@ -28,7 +28,7 @@ class LocationService : Service() {
     private val intervalo: Long = 10000 // 10 segundos
 
     private val supabaseUrl = "https://rubsmsszczixgemppvar.supabase.co"
-    private val supabaseKey = "yJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1YnNtc3N6Y3ppeGdlbXBwdmFyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMwOTQxNTQsImV4cCI6MjA2ODY3MDE1NH0.JimObZdYD5375tD5yFBESlHj_yBOFTawfYEA3IzzV3Q"
+    private val supabaseKey = ""
     private val tableName = "locations"
 
     private val runnable = object : Runnable {
